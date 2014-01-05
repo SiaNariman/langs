@@ -1,12 +1,12 @@
-Subject: Change email address requested
+Subject: داواکاری گۆڕینی پۆستی ئەلیکترۆنی
 
-Hello <username>,
+سڵاو <username>,
 
-You have requested to have a new email address assigned to your account in the discussion forum at <base_url>. If you didn't request this or if you don't want to change your email address you should just ignore this message. Only if you visit the activation page below will your email address be changed. In order for the activation page to work, you must be logged in to the forum.
+ئەم داواکارییەت بۆ هاتووە، چونکە دەتەوێت پۆستە ئەلیکترۆنییەکەت لە ماڵپەڕی  <base_url>. ئەگەر ناتەوێت ئەو کارە بکەیت، ئەم نامەیە پشتگوێ بخە. ئەگەر نا، ئەوە ئەم بەستەرەی خوارەوە کرتە بکە بۆ ئەوەی کارەکەت ئەنجام بدرێت.
 
-To change your email address, please visit the following page:
+بۆ گۆڕینی پۆستی ئەلیکترۆنییەکەت، کرتەی ئەم بەستەرەی خوارەوە بکە:
 <activation_url>
 
 --
 <board_mailer>
-(Do not reply to this message)
+(تکایە وەڵامی ئەم نامەیە مەدەرەوە)
