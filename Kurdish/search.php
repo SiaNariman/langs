@@ -10,10 +10,11 @@ $lang_search = array(
 'Search'							=>	'گەڕان',
 'Search criteria legend'			=>	'بنچیەنەکانی گەڕان بنووسە',
 'Search info'						=>	'بۆ گەڕان بە تەختەکلیل ،مەرجێک بنووسە بۆ گەڕان ،مەرجەکان بە مێرگول جیابکەوە',
-'Keyword search'					=>	'گەڕانی تەختەکلیل',
+'Keyword search'					=>	'گەڕانی کلیلەوشە',
 'Author search'						=>	'گەڕانی نووسەر',
 'Search in legend'					=>	'دەستنیشانبکە لەکوێ بگەڕێ',
 'Search in info'					=>	'هەڵبژێرە لەکام مەکۆ ئارەزوو دەکەیت بگەڕێی',
+'Search multiple forums info'		=>	'If no forums are selected, all forums will be searched.',
 'Forum search'						=>	'مەکۆ',
 'All forums'						=>	'هەموو مەکۆکان',
 'Search in'							=>	'گەڕان لە',
@@ -35,9 +36,8 @@ $lang_search = array(
 'Show as posts'						=>	'پەیامەکان',
 
 // Results
-'Search results'					=>	'ئەنجامەکانی گەڕان',
-'Search topics'						=>	'گەڕانی بابەتەکان',
-'Search posts'						=>	'گەڕانی پەیامەکان',
+'Search'							=>	'گەڕان',
+'Search results'					=>	'ئەنجامی گەڕان',
 'Quick search show_new'				=>	'نوێ',
 'Quick search show_recent'			=>	'چالاک',
 'Quick search show_unanswered'		=>	'وەڵامنەدراو',
@@ -58,7 +58,7 @@ $lang_search = array(
 'No subscriptions'					=>	'ئەو بەکارهێنەرە لە هیچ بابەتێک بەشدارینەکراوە',
 'No new posts'						=>	'هیچ پەیامێکی نوێ نییە لەدوا سەردانتەوە',
 'No recent posts'					=>	'هیچ پەیامی نوێ نەنێردراوە لەماوەی ٢٤ کاتژمێری ڕابردوو',
-'No unanswered'						=>	'هیچ پەیامێکی وەڵامندەراو نییە لەو مەکۆیەThere are no unanswered posts in this forum.',
+'No unanswered'						=>	'هیچ پەیامێکی وەڵامندەراو نییە لەو مەکۆیە',
 'Go to post'						=>	'بڕۆ بۆ پەیام',
 'Go to topic'						=>	'بڕۆ بۆ بابەت'
 

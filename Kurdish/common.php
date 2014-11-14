@@ -17,6 +17,8 @@ $lang_common = array(
 'No permission'						=>	'تۆ دەسەڵاتی گەیشتن بەو پەڕەیەت نییە',
 'Bad referrer'						=>	' ی خراپ ،تۆ گەڕێندرایتەوە بۆ ئەو پەڕەیە لە سەرچاوەی ئەگەر هەڵەکە بەردەوام بوو دڵنایبەوە لەوەی بەستەری بنچینە پێشتر دانراوە لە بەڕێوەبەرایەتی/هەڵبژاردنەکان هەڵەوەHTTP_REFERER',
 'No cookie'							=>	'وا دەردەکەوێ بە سەرکەوتووی هاتبیتە ژوورەوە ،هەرچۆنێکە شەکرۆکەیەک دانەنراوە ڕێکخستنەکانت بپشکنە وە ئەگەر گونجا شەکرۆکەکان چالاک بکە بۆ ئەو ماڵپەرە',
+'Pun include extension'  			=>	'Unable to process user include %s from template %s. "%s" files are not allowed',
+'Pun include directory'				=>	'Unable to process user include %s from template %s. Directory traversal is not allowed',
 'Pun include error'					=>	'هیچ پەڕگەیەکی لەو جۆرە نییە نە لە قاڵبەکە وە نە لە شوێناوی بەکارهێنەر، %s لە قاڵبی %s ناتوانرێ بگەیت بە بەکارهێنەر لەناو',
 
 // Miscellaneous
@@ -43,27 +45,28 @@ $lang_common = array(
 'Last post'							=>	'دوایین پەیام',
 'by'								=>	'لەلایەن', // As in last post by someuser
 'New posts'							=>	'پەیامە نوێیەکان', // The link that leads to the first new post
-'New posts info'					=>	'Go to the first new post in this topic.', // The popup text for new posts links
+'New posts info'					=>	'بڕۆ بۆ یەکەم پەیام لەم بابەتە.', // The popup text for new posts links
 'Username'							=>	'ناوی بەکارهێنەر',
 'Password'							=>	'تێپەڕەووشە',
 'Email'								=>	'ئیمەیڵ',
 'Send email'						=>	'ئیمەیڵ بنێرە',
 'Moderated by'						=>	'چاودێریکردن لەلایەن',
-'Registered'						=>	'تۆماربوو',
+'Registered'						=>	'تۆماربوو: ',
 'Subject'							=>	'سەردێڕ',
 'Message'							=>	'پەیام',
 'Topic'								=>	'بابەت',
-'Forum'								=>	'مەکۆ',
+'Forum'								=>	'Forum',
 'Posts'								=>	'پەیامەکان',
 'Replies'							=>	'وەڵامەکان',
 'Pages'								=>	':پەڕەکان',
-'Page'								=>	'%s پەڕەی',
+'Page'								=>	'پەڕەی %s',
 'BBCode'							=>	'BBCode:', // You probably shouldn't change this
-'img tag'							=>	'[img] tag:',
-'Smilies'							=>	':خەندەکان',
+'url tag'							=>	'[url] tag:',
+'img tag'							=>	'تاگی [img]:',
+'Smilies'							=>	'خەندەکان:',
 'and'								=>	'و',
 'Image link'						=>	'وێنە', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
-'wrote'								=>	':نووسی', // For [quote]'s
+'wrote'								=>	'نووسی:', // For [quote]'s
 'Mailer'							=>	'پەیامبەر', // As in "MyForums Mailer" in the signature of outgoing emails
 'Important information'				=>	'زانیاری گرنگ',
 'Write message legend'				=>	'پەیامەکەت بنووسە و بینێرە',
@@ -86,6 +89,8 @@ $lang_common = array(
 'BBCode error invalid self-nesting'	=>	'[%s] کرایەوە لەکاتی خۆیدا ،ئەمە ڕێپێنەدراوە',
 'BBCode error no closing tag'		=>	'[%1$s] دۆزرایەوە بەبێ گونجاندنێکی [/%1$s]',
 'BBCode error empty attribute'		=>	'[%s] تاق بەش دەستێکی نادیاری هەیە',
+'BBCode error tag not allowed'		=>	'You are not allowed to use [%s] tags',
+'BBCode error tag url not allowed'	=>	'You are not allowed to post links',
 'BBCode code problem'				=>	'[code] کێشەیەک هەیە لەگەڵ تاقەکانی',
 'BBCode list size error'			=>	'لیستەکەت زۆر درێژبوو بۆ جیاکردنەوە ،تکایە بچووکی بکەوە',
 
@@ -101,8 +106,8 @@ $lang_common = array(
 'Logout'							=>	'دەرچوون',
 'Logged in as'						=>	'لە ژوورەوەیت وەکو',
 'Admin'								=>	'بەڕێوەبەرایەتی',
-'Last visit'						=>	'%s :دوا سەردان',
-'Topic searches'					=>	':بابەتەکان',
+'Last visit'						=>	'دوا سەردان: %s',
+'Topic searches'					=>	'بابەتەکان:',
 'New posts header'					=>	'نوێ',
 'Active topics'						=>	'چالاک',
 'Unanswered topics'					=>	'وەڵامنەدراو',
@@ -120,22 +125,23 @@ $lang_common = array(
 'Jump to'							=>	'بازدان بۆ',
 'Go'								=>	' بڕۆ ', // Submit button in forum jump
 'Moderate topic'					=>	'چاودێریکردنی بابەت',
+'All'					=>	'All',
 'Move topic'						=>	'بابەت بگوازەوە',
 'Open topic'						=>	'بابەت بکەوە',
 'Close topic'						=>	'داخستنی بابەت',
 'Unstick topic'						=>	'دەرهێنانی لە جێگیریی',
 'Stick topic'						=>	'بابەت جێگیربکە',
 'Moderate forum'					=>	'مەکۆ چاودێریبکە',
-'Powered by'						=>	'%s بەهێزە بە',
+'Powered by'						=>	'بەهێزە بە : %s',
 
 // Debug information
 'Debug table'						=>	'زانیاری هەڵەدۆزین',
 'Querytime'							=>	'بەرهەمهات لە%1$s چرکەکان, %2$s پرسگەکان لەناوبران',
-'Memory usage'						=>	'%1$s :بیرگەی بەکارهاتوو',
+'Memory usage'						=>	'بیرگەی بەکارهاتوو %1$s :',
 'Peak usage'						=>	'(هەڵگر: %1$s)',
 'Query times'						=>	'(s) کات',
 'Query'								=>	'پرس',
-'Total query time'					=>	'%s کاتی گشتی پرسگە',
+'Total query time'					=>	'کاتی گشتی پرسگە %s',
 
 // Email related notifications
 'New user notification'				=>	'ئاگاداری - تۆماربوونی نوێ',
@@ -149,15 +155,15 @@ $lang_common = array(
 'Duplicate email change message'	=>	'%s :ئیمەیڵی گۆرێ بۆ ئیمەیڵێک کە خاوەنەکەی \'%s\' بەکارهێنەر',
 'Report notification'				=>	'(%d) ڕاپۆرت- \'%s\'',
 'Report message 1'					=>	'%s :ئەم پەیامەی ڕاپۆرت کرد \'%s\' بەکارهێنەر',
-'Report message 2'					=>	'%s :هۆکار',
+'Report message 2'					=>	'هۆکار: %s',
 
-'User profile'						=>	'%s :پرۆفایلی بەکارهێنەر',
-'Post URL'							=>	'%s :بەستەری پەیام',
+'User profile'						=>	'پرۆفایلی بەکارهێنەر: %s',
+'Post URL'							=>	'بەستەری پەیام: %s',
 'Email signature'					=>	'پەیامبەری مەکۆ'."\n".'(وەڵامی ئەم پەیامە مەدەوە)',
 
 // For extern.php RSS feed
-'RSS description'					=>	'%s :چالاکترین بابەتەکان لە',
-'RSS description topic'				=>	'%s :چالاکترین پەیامەکان لە',
+'RSS description'					=>	'چالاکترین بابەتەکان لە: %s',
+'RSS description topic'				=>	'چالاکترین پەیامەکان لە: %s',
 'RSS reply'							=>	'Re: ', // The topic subject will be appended to this string (to signify a reply)
 'RSS active topics feed'			=>	'RSS active topics feed',
 'Atom active topics feed'			=>	'Atom active topics feed',
@@ -169,5 +175,14 @@ $lang_common = array(
 // Admin related stuff in the header
 'New reports'						=>	'پەیامی نوێ هەیە',
 'Maintenance mode enabled'			=>	'باری چاکسازی چالاکە',
+
+// Units for file sizes
+'Size unit B'						=>	'%s B',
+'Size unit KiB'						=>	'%s KiB',
+'Size unit MiB'						=>	'%s MiB',
+'Size unit GiB'						=>	'%s GiB',
+'Size unit TiB'						=>	'%s TiB',
+'Size unit PiB'						=>	'%s PiB',
+'Size unit EiB'						=>	'%s EiB',
 
 );

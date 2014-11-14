@@ -1,18 +1,18 @@
-Subject: Reply to topic: '<topic_subject>'
+Subject: وەڵام بۆ ئەم بابەتە زیادکرا: '<topic_subject>'
 
-<replier> has replied to the topic '<topic_subject>' to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> وەڵامێکی لەم بابەتە نووسی '<topic_subject>' کە تۆ تێیدا بەشداربوویت . لەوانەیە وەڵامی زیاتر هەبێت لەم بابەتە ،بەڵام ئەمە تاکە ئاگادارکردنەوەیە تا ئەو کاتەی جارێکی تر سەردانی دەکەیتەوە.
 
-The message reads as follows:
+پەیام لێرەوە <post_url>
+
+پەیام بەمشێوە دەخوێندرێتەوە:
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-The post is located at <post_url>
-
-You can unsubscribe by going to <unsubscribe_url>
+ئەبۆ ناچالاککردنی ئەم نامانە کرتەی ئەمە بکە <unsubscribe_url>
 
 --
-<board_mailer>
-(Do not reply to this message)
+<board_mailer> نێرەر
+(وەڵامی ئەم نامەیە مەدەرەوە)
