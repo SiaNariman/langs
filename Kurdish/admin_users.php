@@ -38,7 +38,7 @@ $lang_admin_users = array(
 'Users banned redirect'		=>	'Users banned. Redirecting …',
 
 'User search head'			=>	'گەڕان لە ئەندام',
-'User search subhead'		=>	'Enter search criteria',
+'User search subhead'		=>	'وشەی بۆگەڕاو بنوسە',
 'User search info'			=>	'Search for users in the database. You can enter one or more terms to search for. Wildcards in the form of asterisks (*) are accepted.',
 'Username label'			=>	'ناو',
 'E-mail address label'		=>	'پۆستی ئەلیکترۆنی',
@@ -67,7 +67,7 @@ $lang_admin_users = array(
 'Order by e-mail'			=>	'ئیمەیڵ',
 'Order by posts'			=>	'ژمارەی پەیامەکان',
 'Order by last post'		=>	'دوا پەیام',
-'Order by last visit'		=>	'Last visit',
+'Order by last visit'		=>	'دواهەمین سەردان',
 'Order by registered'		=>	'تۆماربوو',
 'Ascending'					=>	'چوونەسەر',
 'Descending'				=>	'هاتنەخوار',
