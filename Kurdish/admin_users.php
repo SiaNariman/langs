@@ -37,7 +37,7 @@ $lang_admin_users = array(
 'Invalid date reasons'		=>	'The format should be YYYY-MM-DD and the date must be at least one day in the future.',
 'Users banned redirect'		=>	'Users banned. Redirecting …',
 
-'User search head'			=>	'User search',
+'User search head'			=>	'گەڕان لە ئەندام',
 'User search subhead'		=>	'Enter search criteria',
 'User search info'			=>	'Search for users in the database. You can enter one or more terms to search for. Wildcards in the form of asterisks (*) are accepted.',
 'Username label'			=>	'ناو',
