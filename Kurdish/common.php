@@ -143,24 +143,6 @@ $lang_common = array(
 'Query'								=>	'پرس',
 'Total query time'					=>	'کاتی گشتی پرسگە %s',
 
-// Email related notifications
-'New user notification'				=>	'ئاگاداری - تۆماربوونی نوێ',
-'New user message'					=>	'%s تۆماربوو لە مەکۆکە لە \'%s\' بەکارهێنەر',
-'Banned email notification'			=>	'ئاگاداری - ئیمەیڵی ڕاگیراو دۆزرایەوە',
-'Banned email register message'		=>	'%s :تۆماربوو لەگەڵ پۆستی ئەلیکترۆنییەکی ڕاگیراو \'%s\' بەکارهێنەر',
-'Banned email change message'		=>	'%s :گۆڕا بۆ پۆستی ئەلیکترۆنی ڕاگیراو \'%s\' بەکارهێنەر',
-'Banned email post message'			=>	'%s :پەیامی نارد بە پۆستی ئەلیکترۆنی ڕاگیراو \'%s\' بەکارهێنەر',
-'Duplicate email notification'		=>	'ئاگاداری - ئیمەیڵی دووبارە دۆزرایەوە',
-'Duplicate email register message'	=>	'%s :تۆماربوو لەگەڵ پۆستی ئەلیکترۆنییەکی کە خاوەنەکەی \'%s\' بەکارهێنەر',
-'Duplicate email change message'	=>	'%s :ئیمەیڵی گۆرێ بۆ ئیمەیڵێک کە خاوەنەکەی \'%s\' بەکارهێنەر',
-'Report notification'				=>	'(%d) ڕاپۆرت- \'%s\'',
-'Report message 1'					=>	'%s :ئەم پەیامەی ڕاپۆرت کرد \'%s\' بەکارهێنەر',
-'Report message 2'					=>	'هۆکار: %s',
-
-'User profile'						=>	'پرۆفایلی بەکارهێنەر: %s',
-'Post URL'							=>	'بەستەری پەیام: %s',
-'Email signature'					=>	'پەیامبەری مەکۆ'."\n".'(وەڵامی ئەم پەیامە مەدەوە)',
-
 // For extern.php RSS feed
 'RSS description'					=>	'چالاکترین بابەتەکان لە: %s',
 'RSS description topic'				=>	'چالاکترین پەیامەکان لە: %s',
