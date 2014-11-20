@@ -30,10 +30,10 @@ $lang_help = array(
 'Images info'			=>	'ئەگەر دەتەوێت وێنەیەک نیشانبدەیت دەتوانی تاگی وێنە بەکاربەریت دەقە دەردەکەوێت لەدوای واژۆی "=" لەکردنەوەی تاگ بەکاردەهێنرێت و دەبێت هەرچۆنێک بێت تێیدابێت ',
 'FluxBB bbcode test'	=>	'FluxBB bbcode تاقیکردنەوەی',
 
-'Test topic'			=>	'Test topic',
-'Test post'				=>	'Test post',
-'Test forum'			=>	'Test forum',
-'Test user'				=>	'Test user',
+'Test topic'			=>	'بابەتی تاقیکاری',
+'Test post'				=>	'پەیامی تاقیکاری',
+'Test forum'			=>	'مەکۆی تاقیکاری',
+'Test user'				=>	'ئەندامی تاقیکاری',
 
 'Quotes'				=>	'چوارچێوەکان',
 'Quotes info'			=>	'ئەگەر دەتەوێ ئاماژە بە کەسیک بدەی ،دەبێت تاگی ئاماژە بەکاربەریت',

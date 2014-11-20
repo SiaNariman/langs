@@ -89,9 +89,9 @@ $lang_common = array(
 'BBCode error invalid self-nesting'	=>	'[%s] کرایەوە لەکاتی خۆیدا ،ئەمە ڕێپێنەدراوە',
 'BBCode error no closing tag'		=>	'[%1$s] دۆزرایەوە بەبێ گونجاندنێکی [/%1$s]',
 'BBCode error empty attribute'		=>	'[%s] تاق بەش دەستێکی نادیاری هەیە',
-'BBCode error tag not allowed'		=>	'You are not allowed to use [%s] tags',
-'BBCode error tag url not allowed'	=>	'You are not allowed to post links',
-'BBCode code problem'				=>	'[code] کێشەیەک هەیە لەگەڵ تاقەکانی',
+'BBCode error tag not allowed'		=>	'تۆ ناتوانیت تاگی  [%s] بەکاربەریت',
+'BBCode error tag url not allowed'	=>	'تۆ ناتوانیت بەستەر دابنێی',
+'BBCode code problem'				=>	'[code] کێشەیەک هەیە لەگەڵ تاگەکانی',
 'BBCode list size error'			=>	'لیستەکەت زۆر درێژبوو بۆ جیاکردنەوە ،تکایە بچووکی بکەوە',
 
 // Stuff for the navigator (top of every page)

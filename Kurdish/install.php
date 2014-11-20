@@ -67,10 +67,10 @@ $lang_install = array(
 'Board setup'					=>	'دامەزراندنی مەکۆ',
 'Info 11'						=>	'تکایە زانیارییە داواکراوەکان بنووسە بۆ دامەزراندنی مەکۆ FluxBB ـیەکەت.',
 
-'General information'			=>	'Enter your board\'s title and description.',
+'General information'			=>	'ناونیشان و دەربارەی مەکۆکەت بنوسە.',
 'Board description'			=>	'باسکردنی مەکۆکەت بنووسە',
 
-'Appearance'					=>	'Appearance',
+'Appearance'					=>	'شێوە',
 
 'Info 15'						=>	'زمانی بنەڕەت بەکاردەبرێ بۆ میوانەکان و بەکارهێنەران ئەوانەی کە نەیانگۆریوە لە بنەڕەتەکە لە پرۆفایلەکانیان.',
 'Default language'				=>	'زمانی بنەڕەت',
