@@ -1,9 +1,9 @@
-Subject: Report(<forum_id>) - '<topic_subject>'
+Subject: ڕاپۆرتی(<forum_id>) - '<topic_subject>'
 
-User '<username>' has reported the following message: <post_url>
+ئەندامی '<username>' ئەم پەیامەی/بابەتەی ڕاپۆرت کردووە : <post_url>
 
-Reason: <reason>
+هۆکار: <reason>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)
+<board_mailer> نێرەر
+(تکایە وەڵامی ئەم پەیامە مەدەرەوە)
